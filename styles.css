@@ -1,0 +1,110 @@
+
+body{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+
+    background: linear-gradient(#36316C,#EFB0C9 );
+}
+
+
+
+  #bff-img{
+    width: 150px;
+    border-radius: 50%;
+    border: 7px solid #100D1E;
+
+  }
+  #bd-date{
+       
+    background: #100D1E;
+    padding: 5px, 10px;
+    border-radius: 5px;
+    margin: 0%;
+
+  }
+
+  #bd-age{
+
+    background: #100D1E;
+    padding: 5px, 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  h1, h2, p, h3 , h4{
+    text-shadow: 0px 0px 1px black;
+    
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+  }
+  .gift-section{
+    margin-top: 50px;
+  }
+  .gift-title{
+    margin-bottom: 10px;
+
+  }
+  .gift-hint{
+    margin-top: 0%;
+
+  }
+  .gift-imges{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid rgb(255, 40, 7);
+    border-radius: 10px;
+    background-image: url("giftimg.JPG");
+    background-size:cover;
+  }
+
+  
+#gift-cheers{
+  height: 200px;
+}
+
+  #first-gift:hover{    
+    background-image:url("img1.GIF");
+  }
+
+  #second-gift:hover{
+
+    background-image: url("hot.GIF")
+
+  }
+  #third-gift:hover{
+
+    background-image: url("third.GIF");
+
+  }
+
+  #fivth-gift:hover{
+    background-image: url("fif.GIF");
+
+  }
+  #gift-cheers:hover{
+    background-image: url("chrs.GIF");
+  }
+
+  #footer{
+
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+   
+  }
+  a{
+    color: white;
+  }
+  
